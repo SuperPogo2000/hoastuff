@@ -1,0 +1,6 @@
+sign up/login page
+main page
+    neighborhood page
+        homes page
+    profile page
+    coordinator page
