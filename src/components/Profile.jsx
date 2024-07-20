@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const TestPage = () => {
+const Profile = () => {
   return (
     <div className='main'>
         <Navbar></Navbar>
-        TestPage
+        Profile
     </div>
     
   )
 }
 
-export default TestPage
+export default Profile

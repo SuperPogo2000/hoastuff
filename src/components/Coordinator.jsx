@@ -1,14 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const MainPage = () => {
+const Coordinator = () => {
   return (
-    <div className='main'>
+    <div className='Coordinator'>
         <Navbar></Navbar>
-        Main Page
+        Coordinator
     </div>
-    
   )
 }
 
-export default MainPage
+export default Coordinator
