@@ -4,6 +4,10 @@ import { useNavigate } from 'react-router-dom'
 const Navbar = () => {
   const navigate = useNavigate()
 
+  const toAbout = ()=>{
+    navigate("/about")
+  }
+
   const toCoordinator = ()=>{
     navigate("/coordinator")
   }
@@ -26,6 +30,7 @@ const Navbar = () => {
         <li><button onClick={toProfile}>Profile</button></li>
         <li><button onClick={toHomes}>Homes</button></li>
         <li><button onClick={toCoordinator}>Coordinator</button></li>
+        <li><button onClick={toAbout}>About</button></li>
       </ul>
     </div>
 

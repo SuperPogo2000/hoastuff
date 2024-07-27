@@ -1,14 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const MainPage = () => {
+const About = () => {
   return (
-    <div className='main'>
+    <div className='About'>
         <Navbar></Navbar>
-        Main Page
+        About
     </div>
-    
   )
 }
 
-export default MainPage
+export default About
