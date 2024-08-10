@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar'
 import Announcements from './Announcements'
 import EmergencyInformation from './EmergencyInformation'
+import ServiceRequests from './ServiceRequests'
 
 const MainPage = () => {
   return (
@@ -17,6 +18,8 @@ const MainPage = () => {
         </ul>
         <Announcements></Announcements>
         <EmergencyInformation></EmergencyInformation>
+        {/* <ServiceRequests></ServiceRequests> */}
+        
 
 
 
