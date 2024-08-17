@@ -18,7 +18,7 @@ const MainPage = () => {
         </ul>
         <Announcements></Announcements>
         <EmergencyInformation></EmergencyInformation>
-        {/* <ServiceRequests></ServiceRequests> */}
+        <ServiceRequests></ServiceRequests>
         
 
 

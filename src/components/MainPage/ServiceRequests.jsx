@@ -10,12 +10,14 @@ const ServiceRequests = () => {
         <label for="Q1">Address</label><br></br>
         <input type="text" id='Q1' name='address'/><br/>
         <label for='Q2'>Reason</label>
-        <select name="reason" id="Q2"></select>
-        <option value ="plumb">Plumbing Issues</option>
-        <option value="elec">Electrical Issues</option>
-        <option value="AC">Air Conditioning Issues</option>
-        <option value="other">Other</option>
+        <select name="reason" id="Q2">
+          <option value ="plumb">Plumbing Issues</option>
+          <option value="elec">Electrical Issues</option>
+          <option value="AC">Air Conditioning Issues</option>
+          <option value="other">Other</option>
+        </select><br/>
         <label for="Q3">Description</label>
+        <input type='text' id='Q3' name='Q3'/>
 
 
     </form>

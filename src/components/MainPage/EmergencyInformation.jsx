@@ -3,7 +3,7 @@ import React from 'react'
 const EmergencyInformation = () => {
   return (
     <div>Emergency Information<br></br>
-    There's a tornado coming to this community! Everyone evacuate immediately!</div>
+    There's a bad guy coming to this community! Everyone evacuate immediately!</div>
   )
 }
 
