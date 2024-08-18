@@ -3,7 +3,8 @@ import Navbar from '../Navbar'
 import Announcements from './Announcements'
 import EmergencyInformation from './EmergencyInformation'
 import ServiceRequests from './ServiceRequests'
-
+import CommunityHighlights from './CommunityHighlights'
+import FAQ from './F.A.Q'
 const MainPage = () => {
   return (
     <div className='main'>
@@ -19,7 +20,9 @@ const MainPage = () => {
         <Announcements></Announcements>
         <EmergencyInformation></EmergencyInformation>
         <ServiceRequests></ServiceRequests>
-        
+        <CommunityHighlights></CommunityHighlights>
+        <FAQ></FAQ>
+      
 
 
 

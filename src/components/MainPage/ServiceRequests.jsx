@@ -4,7 +4,7 @@ const ServiceRequests = () => {
 
   return (
     <div>
-      Service Requests
+      Service Requests:
       <br></br>
     <form>
         <label for="Q1">Address</label><br></br>
