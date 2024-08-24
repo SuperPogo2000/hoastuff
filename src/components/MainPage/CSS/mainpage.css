@@ -1,0 +1,12 @@
+.main_page_bg{
+    background-color: #202020;
+}
+.main_page_txt{
+    color: #00ffff;
+    font-family: serif;
+}
+
+.announcements_container{
+    border: #2f4f4f ;
+    border-style: solid;
+}

@@ -5,11 +5,13 @@ import EmergencyInformation from './EmergencyInformation'
 import ServiceRequests from './ServiceRequests'
 import CommunityHighlights from './CommunityHighlights'
 import FAQ from './F.A.Q'
+import './CSS/mainpage.css'
+
 const MainPage = () => {
   return (
-    <div className='main'>
+    <div className='main_page_bg main_page_txt'>
         <Navbar></Navbar>
-        This is the Main Page. Most content will be located here. You can access the following:
+       <div className=""> This is the Main Page. Most content will be located here. You can access the following:
         <ul>
           <li>Announcements</li>
           <li>Emergency Information</li>
@@ -21,7 +23,7 @@ const MainPage = () => {
         <EmergencyInformation></EmergencyInformation>
         <ServiceRequests></ServiceRequests>
         <CommunityHighlights></CommunityHighlights>
-        <FAQ></FAQ>
+        <FAQ></FAQ></div>
       
 
 
