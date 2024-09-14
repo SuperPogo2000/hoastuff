@@ -24,7 +24,7 @@ const Navbar = () => {
     navigate("/");
   }
   return (
-    <div>
+    <div className='bg-rose-950'>
       <ul>
         <li><button onClick={toMain}>Main Page</button></li>
         <li><button onClick={toProfile}>Profile</button></li>

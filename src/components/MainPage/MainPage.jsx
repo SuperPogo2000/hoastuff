@@ -9,9 +9,9 @@ import FAQ from './F.A.Q'
 
 const MainPage = () => {
   return (
-    <div className='bg-grey-800 text-gray-500'>
+    <div className='bg-gradient-to-b from-rose-950 via-slate-800 to-slate-800 text-teal-400 font-serif'>
         <Navbar></Navbar>
-       <div className="bg-slate-800"> This is the Main Page. Most content will be located here. You can access the following:
+       <div> This is the Main Page. Most content will be located here. You can access the following:
         <ul className='p-12'>
           <li className="">Announcements</li>
           <li>Emergency Information</li>
