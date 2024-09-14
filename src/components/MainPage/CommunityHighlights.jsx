@@ -6,7 +6,7 @@ import D from '../../assets/D.jpg'
 
 const CommunityHighlights = () => {
   return (
-    <div className='m-4 p-4 border-2 border-dashed border-blue-900'>Community Highlights:<br/>
+    <div className='hover:animate-bounce m-4 p-4 border-2 border-dashed border-blue-900'>Community Highlights:<br/>
     <img src={A} alt=""/><br/>
     <img src={B} alt=""/><br/>
     <img src={C} alt=""/><br/>

@@ -24,13 +24,13 @@ const Navbar = () => {
     navigate("/");
   }
   return (
-    <div className='bg-rose-950'>
+    <div className='w-24 bg-rose-950'>
       <ul>
-        <li><button onClick={toMain}>Main Page</button></li>
-        <li><button onClick={toProfile}>Profile</button></li>
-        <li><button onClick={toHomes}>Homes</button></li>
-        <li><button onClick={toCoordinator}>Coordinator</button></li>
-        <li><button onClick={toAbout}>About</button></li>
+        <li className='bg-orange-600 rounded-lg shadow p-2 hover:animate-pulse'><button onClick={toMain}>Main Page</button></li>
+        <li className='bg-amber-500 rounded-lg shadow p-2 hover:animate-pulse'><button onClick={toProfile}>Profile</button></li>
+        <li className='bg-lime-500 rounded-lg shadow p-2 hover:animate-pulse'><button onClick={toHomes}>Homes</button></li>
+        <li className='bg-cyan-700 rounded-lg shadow p-2 hover:animate-pulse'><button onClick={toCoordinator}>Coordinator</button></li>
+        <li className='bg-violet-800 rounded-lg shadow p-2 hover:animate-pulse'><button onClick={toAbout}>About</button></li>
       </ul>
     </div>
 
