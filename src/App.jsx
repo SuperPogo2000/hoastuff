@@ -1,16 +1,16 @@
-
 import './App.css';
 import MainPage from './components/MainPage/MainPage';
-import Profile from './components/Profile';
+import Profile from './components/Profile/Profile';
 import Homes from './components/Homes';
 import Coordinator from './components/Coordinator';
 import About  from './components/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
 function App() {
   return (
-    
-      <Router>
+    <div className='main bg-gradient-to-b from-rose-950 via-slate-800 to-slate-800 text-lime-800 font-serif min-h-screen'>
+            <Router>
         <Routes>
           <Route path="/" element={<MainPage/>}></Route>
           <Route path="/profile" element={<Profile/>}></Route>
@@ -20,10 +20,13 @@ function App() {
         </Routes>
       </Router>
       
+    </div>
+
   
 
    
   );
 }
+
 
 export default App;
