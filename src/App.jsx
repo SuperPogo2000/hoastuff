@@ -1,6 +1,6 @@
 import './App.css';
 import MainPage from './components/MainPage/MainPage';
-import Profile from './components/Profile/Profile';
+import Profile from './components/Profile';
 import Homes from './components/Homes';
 import Coordinator from './components/Coordinator';
 import About  from './components/About';
