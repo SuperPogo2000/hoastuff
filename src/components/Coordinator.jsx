@@ -5,7 +5,11 @@ const Coordinator = () => {
   return (
     <div className='Coordinator'>
         <Navbar></Navbar>
-        Coordinator
+        Coordinator: This page tells what the coordinator is authorized to do.
+        <ul>
+          <li>Announce new homeowners who newly moved in</li>
+          <li>Allow permission for home renovations</li>
+        </ul>
     </div>
   )
 }

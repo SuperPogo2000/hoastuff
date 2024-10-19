@@ -25,7 +25,7 @@ const Navbar = () => {
   }
   return (
     <div className='w-24 bg-rose-950'>
-      <ul>
+      <ul className='flex space-x-8 p-4'>
         <li className='bg-orange-600 rounded-lg shadow p-2 hover:animate-pulse'><button onClick={toMain}>Main Page</button></li>
         <li className='bg-amber-500 rounded-lg shadow p-2 hover:animate-pulse'><button onClick={toProfile}>Profile</button></li>
         <li className='bg-lime-500 rounded-lg shadow p-2 hover:animate-pulse'><button onClick={toHomes}>Homes</button></li>
